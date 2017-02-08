@@ -1,0 +1,33 @@
+.inline{
+    display: inline;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    text-decoration: none;
+
+}
+.incomeTextDiv{
+    font-family: sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus{
+    outline:none;
+}
+.expenseText{
+    color: red;
+}
+.formBody{
+    position: relative;
+    top:18px;
+}
+.submitBtn{
+    padding-top: 8px;
+}
+.IncomeResults{
+    padding-top: 10px;
+}

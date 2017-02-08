@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<form onsubmit="calculate()" action="#" class="container formBody">
+    <div class="incomeTextDiv">
+        <label for="IncomeAmount">Income Amount:</label>
+        <input type="number" id="IncomeAmount" class="right">
+    </div>
+    <div class="IncomeResults">
+        <div>
+            <div class="inline">
+                <label for="profit">Profit%:</label>
+                <input type="number" id="profit">
+            </div>
+            <label for="profitResult" class="inline">Profit Amount: </label>
+            <div id="profitResult" class="inline"></div>
+        </div>
+        <div>
+            <div class="inline">
+                <label for="ownerPay"> Owner's Pay%:</label>
+                <input type="number" id="ownerPay">
+            </div>
+            <div class="inline">
+                <label for="OwnerPayResult" class="inline">Owner's </label>
+                <div id="OwnerPayResult" class="inline"></div>
+            </div>
+        </div>
+        <div>
+            <div class="inline">
+                <label for="tax">Tax:</label>
+                <input type="number" id="tax">
+            </div>
+            <div class="inline">
+                <label for="taxResult" class="inline">Tax Result: </label>
+                <div id="taxResult" class="inline"></div>
+            </div>
+        </div>
+        <div>
+            <div class="inline"><label for="otherValue">Others: </label><input type="number" id="otherValue"></div>
+            <div class="inline"><label for="otherValueResult" class="inline">Others: </label>
+                <div id="otherValueResult" class="inline"></div>
+            </div>
+        </div>
+        <div class="expenseText">Expenses:</div>
+        <div class="expenseDiv">
+            <div>
+                <div class="inline"><label for="salesTools"> Sales and Tools: </label><input type="number"
+                                                                                             id="salesTools">
+                </div>
+                <div class="inline"><label for="salesToolsResult" class="inline">Sales and Tools Amount: </label>
+                    <div id="salesToolsResult" class="inline"></div>
+                </div>
+            </div>
+            <div>
+                <div class="inline"><label for="dgCost"> DG Cost: </label><input type="number" id="dgCost"></div>
+                <div class="inline"><label for="dgCostResult" class="inline">DG Cost: </label>
+                    <div id="dgCostResult" class="inline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="submitBtn"><input type="submit" value="submit" class="btn btn-success"></div>
+</form>
+<script type="application/javascript" src="js/cal.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
